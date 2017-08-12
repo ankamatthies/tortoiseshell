@@ -19,6 +19,8 @@ header {
     background-repeat: no-repeat;
     height: 30rem;
     background-size: cover;
+    background-position: center;
+    padding-top: 1rem;
   }
 
 /*  whole header container */
@@ -31,6 +33,11 @@ nav {
   padding: 1rem 0;
 }
 
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
 .header-logo img {
   height: 1.5rem;
   padding-left: 2rem;
@@ -40,10 +47,6 @@ nav {
 
 .header-logo p {
   font-size: 1rem;
-  align-items: center;
-  display: inline-block;
-  position: center;
-
 }
 
 /* navigation on the right */
@@ -53,24 +56,26 @@ ul li {
   padding-right: 2rem;
 }
 
+/* main banner section in header */
 header .header-content {
   justify-content: flex-end;
 }
-
-/* main banner section in header */
 
 .header-content {
   display: flex;
 }
 
-.header-content p {
-  font-size: 2rem;
-  line-height: 1.2;
-  font-weight: bold;
-  background-color: white;
+.main-banner {
   padding: 1.5rem 5rem;
   margin-top: 10rem;
   margin-right: -2rem;
+  background-color: white;
+  line-height: 1.2;
+}
+
+.header-content p {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* main section */
@@ -136,9 +141,41 @@ footer {
 }
 
 .footer-logo {
+  display: flex;
+  align-items: center;
   padding: 4rem 1rem 4rem 4rem;
 }
 
 .footer-logo img {
   height: 1.5rem;
+  padding-right: 1rem;
 }
+
+/* media queries for tablets */
+
+@media only screen and (min-width: 630px) and (max-width: 1024px) {
+
+  .container {
+    margin: 0;
+    width: 100%
+  }
+
+  header {
+    padding-top: 0;
+    height: 22rem;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  .main-banner {
+    padding: 0.75rem 4rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+  }
+
+
+  .header-content p {
+    font-size: 1.33rem;
+  }
