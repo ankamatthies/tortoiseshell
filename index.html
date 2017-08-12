@@ -9,43 +9,54 @@
   <body>
 
     <!-- Header Section -->
+
     <header>
 
     <!-- logo, heading + nav -->
 
-      <div class="site-container">
-      <img src="./resources/images/logo-white.png" alt="logo glasses white">
-      <span>Tortoiseshell Optics</span>
-      <nav>
-        <span><a href="#Services"></a>Services</span>
-        <span><a href="#Products"></a>Products</span>
-        <span><a href="#Contact"></a>Contact</span>
-      </nav>
-    </div>
+    <nav class="container">
+      <div class="header-logo">
+        <img src="./resources/images/logo-white.png" alt="logo glasses white">
+        <p>Tortoiseshell Optics</p>
+      </div>
+      <div class="menu">
+      <ul>
+        <li><a href="#Services"></a>Services</li>
+        <li><a href="#Products"></a>Products</li>
+        <li><a href="#Contact"></a>Contact</li>
+      </ul>
+      </div>
+    </nav>
+
+
     <!-- text box in header -->
 
-        <div class="header-content">
-          <h1>DON'T JUST LOOK, SEE.</h1>
+        <div class="header-content container">
+          <div class="main-banner">
+          <p>DON'T JUST LOOK, SEE.</p>
           </div>
+        </div>
     </header>
 
     <!-- main section -->
-    <section class="site-container">
-      <div class="specialities" id="exams">
+    <section class="main">
+      <div class="specialities"> <!-- exams section -->
           <div class="specialities_images">
-            <img src="./resources/images/paper-icon.png" alt="image of paper">
+            <img src="./resources/images/paper-icon.png" alt="image of paper" class="paper">
           </div>
           <span>Comprehensive Exams</span>
         </div>
-        <div class="specialities" id="fittings">
+
+        <div class="specialities"> <!-- fittings section -->
           <div class="specialities_images">
-            <img src="./resources/images/ruler-icon.png" alt="image of ruler">
+            <img src="./resources/images/ruler-icon.png" alt="image of ruler" class="ruler">
           </div>
           <span>Custom Fittings</span>
         </div>
-        <div class="specialities" id="delivery">
+
+        <div class="specialities"> <!-- delivery section -->
           <div class="specialities_images">
-            <img src="./resources/images/truck-icon.png" alt="image of truck">
+            <img src="./resources/images/truck-icon.png" alt="image of truck" class="truck">
           </div>
           <span>Fast Delivery</span>
         </div>
@@ -54,7 +65,7 @@
 
       <!-- info section -->
 
-      <section class="site-container">
+      <section class="main container">
         <div class="info">
           <h4>PHILOSOPHY</h4>
           <p>Over 75% of our brains are dedicated to one sense: vision. We believe everyone deserves to see the world, not matter what. That’s why we offer eye exams, custom fittings, and quick delivery at a low cost. It’s your vision that makes ours.</p>
@@ -69,14 +80,14 @@
 
       <!-- footer -->
 
-      <footer>
+      <footer class="container">
+        <div class="footer-logo">
+          <img src="./resources/images/logo-black.png" alt="logo black">
+          <span>Copyright Tortoiseshell Optics</span>
+        </div>
 
-      <div class="site-container">
-        <img src="./resources/images/logo-black.png" alt="logo black">
-        <span>Copyright Tortoiseshell Optics</span>
-      </div>
-      
     </footer>
 
+
   </body>
-</html>
+  </html>

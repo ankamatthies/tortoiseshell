@@ -1,0 +1,144 @@
+
+html {
+  font-size: 18px;
+  font-family: Helvetica;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 960px;
+  margin: auto;
+}
+
+  /* header styling */
+
+header {
+    background-image: url("../../resources/images/background.png");
+    background-repeat: no-repeat;
+    height: 30rem;
+    background-size: cover;
+  }
+
+/*  whole header container */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+  color: white;
+  padding: 1rem 0;
+}
+
+.header-logo img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+
+}
+
+.header-logo p {
+  font-size: 1rem;
+  align-items: center;
+  display: inline-block;
+  position: center;
+
+}
+
+/* navigation on the right */
+
+ul li {
+  display: inline;
+  padding-right: 2rem;
+}
+
+header .header-content {
+  justify-content: flex-end;
+}
+
+/* main banner section in header */
+
+.header-content {
+  display: flex;
+}
+
+.header-content p {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+}
+
+/* main section */
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+/* specialities secition (exams, fittings, delivery) */
+.specialities {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  margin: 3rem;
+}
+
+.specialities .paper {
+  width: 3.5rem
+}
+
+.specialities .ruler {
+  width: 5rem;
+}
+
+.specialities .truck {
+  width: 5rem;
+}
+
+.specialities span {
+  display: block;
+  text-align: center;
+}
+
+/* Info section (philiosophy & appointments) */
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 5rem;
+
+}
+
+.info h4 {
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+/* footer section */
+
+footer {
+  background-color: azure;
+  align-items: center;
+}
+
+.footer-logo {
+  padding: 4rem 1rem 4rem 4rem;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+}
